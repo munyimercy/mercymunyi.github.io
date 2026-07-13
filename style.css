@@ -720,3 +720,51 @@ section h2{
     transform:translateY(-6px);
 
 }
+/*==============================
+      SCROLL TO TOP BUTTON
+==============================*/
+
+#scrollTopBtn{
+
+    position:fixed;
+
+    bottom:30px;
+
+    right:30px;
+
+    width:50px;
+
+    height:50px;
+
+    border-radius:50%;
+
+    border:none;
+
+    background:#0B5D1E;
+
+    color:white;
+
+    font-size:22px;
+
+    cursor:pointer;
+
+    display:none;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.3);
+
+    transition:.3s;
+
+    z-index:999;
+
+}
+
+
+#scrollTopBtn:hover{
+
+    background:#FFD54F;
+
+    color:black;
+
+    transform:translateY(-5px);
+
+}
