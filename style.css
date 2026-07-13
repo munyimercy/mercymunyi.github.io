@@ -317,6 +317,353 @@ header{
     transition:.3s;
 
 }
+/*====================================
+        SECTION STYLING
+=====================================*/
+
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+}
+
+section{
+    padding:90px 0;
+}
+
+section h2{
+
+    text-align:center;
+
+    font-size:40px;
+
+    color:#0B5D1E;
+
+    margin-bottom:50px;
+
+    position:relative;
+
+}
+
+section h2::after{
+
+    content:"";
+
+    width:90px;
+
+    height:4px;
+
+    background:#FFD54F;
+
+    display:block;
+
+    margin:15px auto;
+
+    border-radius:20px;
+
+}
+
+/*====================================
+        CARDS
+=====================================*/
+
+.card{
+
+    background:white;
+
+    padding:30px;
+
+    border-radius:20px;
+
+    box-shadow:0 12px 30px rgba(0,0,0,.08);
+
+    transition:.4s;
+
+    margin-bottom:30px;
+
+}
+
+.card:hover{
+
+    transform:translateY(-12px);
+
+    box-shadow:0 20px 45px rgba(0,0,0,.15);
+
+}
+
+/*====================================
+        EDUCATION
+=====================================*/
+
+.education-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+
+    gap:30px;
+
+}
+
+.education-grid i{
+
+    font-size:50px;
+
+    color:#0B5D1E;
+
+    margin-bottom:20px;
+
+}
+
+/*====================================
+        SKILLS
+=====================================*/
+
+.skills-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+
+    gap:25px;
+
+}
+
+.skills-grid .card{
+
+    text-align:center;
+
+}
+
+.skills-grid i{
+
+    font-size:45px;
+
+    color:#0B5D1E;
+
+    margin-bottom:20px;
+
+}
+
+/*====================================
+        PROJECTS
+=====================================*/
+
+.project-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+
+    gap:30px;
+
+}
+
+/*====================================
+        EXPERIENCE
+=====================================*/
+
+#experience ul{
+
+    margin-top:20px;
+
+    padding-left:20px;
+
+}
+
+#experience li{
+
+    margin-bottom:12px;
+
+}
+
+/*====================================
+        CONTACT
+=====================================*/
+
+.contact-card{
+
+    max-width:700px;
+
+    margin:auto;
+
+}
+
+.contact-card p{
+
+    margin:20px 0;
+
+    font-size:18px;
+
+}
+
+.contact-card i{
+
+    color:#0B5D1E;
+
+    width:30px;
+
+}
+
+.contact-card a{
+
+    color:#0B5D1E;
+
+    text-decoration:none;
+
+}
+
+.contact-card a:hover{
+
+    text-decoration:underline;
+
+}
+
+/*====================================
+        FOOTER
+=====================================*/
+
+footer{
+
+    background:#0B5D1E;
+
+    color:white;
+
+    text-align:center;
+
+    padding:35px;
+
+    margin-top:60px;
+
+}
+
+/*====================================
+        ANIMATIONS
+=====================================*/
+
+@keyframes fadeUp{
+
+    from{
+
+        opacity:0;
+
+        transform:translateY(40px);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:translateY(0);
+
+    }
+
+}
+
+.card{
+
+    animation:fadeUp .8s ease;
+
+}
+
+/*====================================
+        RESPONSIVE
+=====================================*/
+
+@media(max-width:900px){
+
+.hero h1{
+
+    font-size:42px;
+
+}
+
+.hero h3{
+
+    font-size:22px;
+
+}
+
+.nav-links{
+
+    display:none;
+
+}
+
+}
+
+@media(max-width:768px){
+
+.hero{
+
+    padding:100px 20px;
+
+}
+
+.hero h1{
+
+    font-size:35px;
+
+}
+
+.hero h3{
+
+    font-size:20px;
+
+}
+
+.hero p{
+
+    font-size:17px;
+
+}
+
+.btn,
+
+.btn-outline{
+
+    display:block;
+
+    margin:20px auto;
+
+    width:220px;
+
+    text-align:center;
+
+}
+
+.social-icons{
+
+    margin-top:25px;
+
+}
+
+.social-icons a{
+
+    font-size:24px;
+
+}
+
+section{
+
+    padding:70px 0;
+
+}
+
+section h2{
+
+    font-size:32px;
+
+}
+
+.card{
+
+    padding:20px;
+
+}
+
+}
 
 .social-icons a:hover{
 
