@@ -1,0 +1,232 @@
+/* ===== GENERAL ===== */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    background:#f5f7fa;
+    color:#333;
+    line-height:1.7;
+}
+
+/* ===== CONTAINER ===== */
+.container{
+    width:90%;
+    max-width:1100px;
+    margin:auto;
+}
+
+/* ===== HEADER ===== */
+header{
+    background:#0B5D1E;
+    color:white;
+    text-align:center;
+    padding:40px 20px;
+    box-shadow:0 2px 10px rgba(0,0,0,0.2);
+}
+
+header h1{
+    font-size:42px;
+    margin-bottom:10px;
+}
+
+header p{
+    font-size:20px;
+    margin-bottom:25px;
+}
+
+/* ===== NAVIGATION ===== */
+nav{
+    margin-top:20px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 15px;
+    font-size:17px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+nav a:hover{
+    color:#FFD54F;
+}
+
+/* ===== HERO ===== */
+.hero{
+    background:linear-gradient(135deg,#2E7D32,#66BB6A);
+    color:white;
+    text-align:center;
+    padding:100px 20px;
+}
+
+.hero h2{
+    font-size:42px;
+    margin-bottom:20px;
+}
+
+.hero p{
+    font-size:20px;
+    max-width:800px;
+    margin:auto;
+}
+
+/* ===== BUTTON ===== */
+.btn{
+    display:inline-block;
+    margin-top:35px;
+    background:white;
+    color:#2E7D32;
+    padding:14px 35px;
+    border-radius:30px;
+    text-decoration:none;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+.btn:hover{
+    background:#FFD54F;
+    color:black;
+}
+
+/* ===== SECTIONS ===== */
+section{
+    padding:70px 0;
+}
+
+section h2{
+    text-align:center;
+    color:#0B5D1E;
+    font-size:34px;
+    margin-bottom:40px;
+}
+
+/* ===== CARDS ===== */
+.card{
+    background:white;
+    padding:25px;
+    border-radius:12px;
+    margin-bottom:25px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+}
+
+.card h3{
+    color:#0B5D1E;
+    margin-bottom:12px;
+}
+
+.card h4{
+    color:#444;
+    margin-bottom:15px;
+}
+
+/* ===== SKILLS ===== */
+.skills{
+    display:flex;
+    flex-wrap:wrap;
+    gap:15px;
+    justify-content:center;
+}
+
+.skills span{
+    background:#0B5D1E;
+    color:white;
+    padding:12px 18px;
+    border-radius:30px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+.skills span:hover{
+    background:#FFD54F;
+    color:black;
+}
+
+/* ===== LISTS ===== */
+ul{
+    padding-left:25px;
+}
+
+li{
+    margin-bottom:10px;
+}
+
+/* ===== CONTACT ===== */
+#contact p{
+    margin:15px 0;
+    font-size:18px;
+}
+
+#contact a{
+    color:#0B5D1E;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+#contact a:hover{
+    text-decoration:underline;
+}
+
+/* ===== FOOTER ===== */
+footer{
+    background:#0B5D1E;
+    color:white;
+    text-align:center;
+    padding:25px;
+    margin-top:40px;
+}
+
+/* ===== RESPONSIVE ===== */
+@media(max-width:768px){
+
+header h1{
+    font-size:30px;
+}
+
+header p{
+    font-size:18px;
+}
+
+.hero{
+    padding:70px 20px;
+}
+
+.hero h2{
+    font-size:30px;
+}
+
+.hero p{
+    font-size:17px;
+}
+
+nav a{
+    display:block;
+    margin:12px 0;
+}
+
+.skills{
+    justify-content:flex-start;
+}
+
+section h2{
+    font-size:28px;
+}
+
+.card{
+    padding:20px;
+}
+
+}
